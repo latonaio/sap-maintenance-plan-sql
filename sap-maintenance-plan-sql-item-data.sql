@@ -2,7 +2,7 @@ CREATE TABLE `sap_maintenance_plan_item_data`
 (
   `MaintenancePlan`                   varchar(12) NOT NULL,
   `MaintenanceItem`                   varchar(16) NOT NULL,
-  `MaintenanceItemDescription`        varchar(12) DEFAULT NULL,
+  `MaintenanceItemDescription`        varchar(40) DEFAULT NULL,
   `MaintenanceStrategy`               varchar(40) DEFAULT NULL,
   `MaintenancePlanCategory`           varchar(2) DEFAULT NULL,
   `MaintenancePlanCallObject`         varchar(1) DEFAULT NULL,
